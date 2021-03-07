@@ -4,7 +4,7 @@ body {
     margin: 10px;
     padding: 10px;
     background-color: chocolate;
-    font-family: 'Wellfleet', serif;
+    font-family: 'Wellfleet' ,'arial';
 }
 .board{
     background-color: #425a5a;
