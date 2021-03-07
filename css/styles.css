@@ -10,7 +10,8 @@ body {
     background-color: #425a5a;
     border: 15px solid #523620;
     border-radius: 20px;
-    padding: 40px 20px;
+    padding-top: 40px;
+    padding-bottom: 0px;
     height: 50%;
     width: 50%;
     float:center;
@@ -48,8 +49,7 @@ input{
 }
 #blank2{
     color:lightGrey;
+}  
+.heading{
+    text-align: center;
 }
-/*   
-  .heading{
-      text-align: center;
-  } */
