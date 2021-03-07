@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Wellfleet);
+
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: chocolate;
+    font-family: 'Wellfleet', serif;
+}
+.board{
+    background-color: #425a5a;
+    border: 15px solid #523620;
+    border-radius: 20px;
+    padding: 40px 20px;
+    height: 50%;
+    width: 50%;
+    float:center;
+    text-align: center;
+    color:white;
+    overflow-x:hidden;
+    overflow-y:auto;
+    margin: 70px auto 10px auto;
+}
+
+button{
+    color:white;
+    background-color:tan;
+    border:none;
+    transition-property: background-color;
+    transition-duration: 750ms;
+}
+button:hover{
+    color:white;
+    background-color:peru;
+    border:none;
+}
+
+input:focus{
+    border: 1px double peachpuff !important;
+    box-shadow: 0 0 3px #1670BE;
+}
+input{
+    width:250px!important;
+    background-color:white !important;
+}
+
+#blank{
+    color:lightGrey;
+}
+#blank2{
+    color:lightGrey;
+}
+/*   
+  .heading{
+      text-align: center;
+  } */

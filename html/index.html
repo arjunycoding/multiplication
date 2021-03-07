@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times Tables</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/caluloator.png">
+</head>
+<body>
+    <div class = "board">
+        <h4>What table would you like?</h4>
+        <input type="number" name = "timesTable" id = "timesTable"/>
+        <p id = "blank"></p>
+        <br/>
+        <h4>How many facts would you like to be printed? </h4>
+        <input type="number" name = "maxNumber" id = "maxNumber"/>
+        <p id = "blank2"></p>
+        <button onclick = "printTables()">RUN</button>
+        <h2 id = "tableOutput"></h2>
+    </div>
+    <script src = "../js/main.js"></script>
+</body>
+</html>
